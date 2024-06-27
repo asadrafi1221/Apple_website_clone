@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  font-size: 11px;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(25, 24, 24);
+  padding-top: 13px;
+  height:30px;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.fa-apple {
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.iphone-14 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 26rem;
+  padding-top: 20px;
+  align-items: center;
+  text-transform: capitalize;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header:hover {
+  color: rgb(255, 255, 255);
+}
+.op:hover {
+  cursor: pointer;
+}
+.iphone {
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.op {
+  display: flex;
+
+  gap: 35px;
+  position: relative;
+bottom:5px;
+  color: rgb(217, 213, 213);
+
+  justify-content: center;
+  align-items: center;
+}
+.fou {
+  gap: 40px;
+  display: flex;
+}
+.options {
+  display: flex;
+  font-size: 13px;
+  gap: 30px;
+}
+.over {
+  color: rgb(154, 142, 142);
+}
+.buy {
+  background-color: rgb(25, 165, 225);
+  width: 45px;
+  border-radius: 20px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+}
+
+.sec-con {
+  background-color: rgb(32, 30, 30);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 19px;
+  font-weight: bold;
+  border-top: 1px solid rgb(144, 141, 141);
+}
+.op {
+  display: flex;
+  flex-direction: row;
+}
+.second {
+  padding-top: 15px;
+}
+@media only screen and (max-width: 640px) {
+  .store {
+    display: none;
+  }
+  .over {
+    display: none;
+  }
+  .another {
+    display: none;
+  }
+  .techs {
+    display: none;
+  }
+  .sec-con {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    height: 50px;
+  }
+  .buy {
+    display: flex;
+  }
+  .header {
+    display: flex;
+    gap: 500px;
+  }
+  .ocean {
+    width: 640px;
+  }
+}

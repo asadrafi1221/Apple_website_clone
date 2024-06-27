@@ -1,0 +1,264 @@
+.third-con {
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+  align-items: center;
+  /* position: relative; */
+  left: 200px;
+  padding-left: 170px;
+  /* gap: 600px; */
+}
+.pro {
+  font-size: 65px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: rgb(211, 203, 203);
+}
+.circles {
+  color: black;
+}
+.video {
+  width: 1000px;
+}
+.vide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding-top: 50px;
+}
+.nam {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(211, 203, 203);
+}
+.price {
+  color: gray;
+  font-weight: 800;
+}
+.meet {
+  font-size: 50px;
+
+  font-weight: 900;
+  text-transform: capitalize;
+  color: rgb(211, 203, 203);
+}
+.br {
+  color: gray;
+  font-weight: 800;
+}
+.dynamic {
+  padding-left: 190px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.chat {
+  width: 350px;
+}
+.phone {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 200px;
+}
+.big-text {
+  color: gray;
+  font-weight: 900;
+  font-size: 18px;
+}
+.info {
+  color: gray;
+  font-weight: 900;
+  font-size: 18px;
+}
+.ios {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  padding-right: 300px;
+}
+.name {
+  height: 350px;
+  background-color: rgb(30, 29, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.img-con {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.big-con {
+  height: 950px;
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s ease-in-out;
+}
+.ocean {
+  padding-top: 50px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  .big-text {
+    font-size: 13px;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+  .text {
+    gap: 40px;
+  }
+  .-boxes {
+    display: none;
+  }
+  .chat {
+    width: 250px;
+  }
+  .pro {
+    font-size: 35px;
+    /* padding-left: 600px; */
+  }
+  .video {
+    width: 550px;
+  }
+  .name {
+    height: 250px;
+  }
+  .dynamic {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+  }
+  .meet {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  .nam {
+    font-size: 25px;
+  }
+  .br {
+    font-size: 10px;
+  }
+  .top {
+    width: 350px;
+  }
+  /* .ios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .info {
+    font-size: 14px;
+    padding: 0px;
+  }
+  .ios {
+    padding: 0;
+    padding-top: 100px;
+  }
+  .img-collab {
+    width: 500px;
+  }
+  .big-con {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header {
+    font-size: 13px;
+    position: relative;
+    gap: 15px;
+  }
+  .op {
+    gap: 20px;
+  }
+  body {
+    position: relative;
+    width: 900px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .iphone-14 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+  }
+  .options {
+    font-size: 13px;
+  }
+  .second {
+    width: 100%;
+  }
+  .video {
+    width: 900px;
+  }
+  .dynamic {
+    padding: 0;
+    position: relative;
+    left: 90px;
+    top: 20px;
+  }
+  .top {
+    width: 400px;
+  }
+  .info {
+    position: relative;
+    left: 150px;
+    justify-content: center;
+    font-size: 17px;
+  }
+  .img-collab {
+    width: 700px;
+  }
+  .big-con {
+    height: 600px;
+  }
+  .iyl-father {
+    background-color: black;
+  }
+  .curly {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 120px;
+  }
+  .curl {
+    font-size: 15px;
+  }
+  .island {
+    width: 300px;
+  }
+  .isl {
+    width: 300px;
+  }
+  .dyara {
+    width: 300px;
+  }
+  .black {
+    width: 300px;
+  }
+  .tire {
+    width: 300px;
+  }
+}
